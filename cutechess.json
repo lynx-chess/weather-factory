@@ -1,8 +1,8 @@
 {
-    "engine": "engine",
-    "book": "book.epd",
-    "games": 16,
-    "tc": 5,
-    "hash": 8,
-    "threads": 1
+    "engine": "Lynx-2123-tuning.exe",
+    "book": "UHO_XXL_+0.90_+1.19.epd",
+    "games": 32,
+    "tc": 8,
+    "hash": 256,
+    "threads": 8
 }

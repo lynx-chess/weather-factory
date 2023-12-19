@@ -40,7 +40,7 @@ class CutechessMan:
             f"option.Hash={self.hash_size} {' '.join(params_a)} "
             f"-engine cmd=./tuner/{self.engine} name={self.engine} proto=uci "
             f"option.Hash={self.hash_size} {' '.join(params_b)} "
-            "-resign movecount=3 score=400 "
+            "-resign movecount=3 score=500 twosided=true "
             "-draw movenumber=40 movecount=8 score=10 "
             "-repeat "
             "-recover "
