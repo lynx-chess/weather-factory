@@ -35,7 +35,7 @@ class CutechessMan:
         params_b: list[str]
     ) -> str:
         return (
-            "./tuner/cutechess-cli "
+            "./tuner/cutechess/cutechess-cli "
             f"-engine cmd=./tuner/{self.engine} name={self.engine} proto=uci "
             f"option.Hash={self.hash_size} {' '.join(params_a)} "
             f"-engine cmd=./tuner/{self.engine} name={self.engine} proto=uci "
@@ -47,7 +47,7 @@ class CutechessMan:
             f"-concurrency {self.threads} "
             f"-each tc={self.tc}+{self.inc} "
             f"-openings file=tuner/{self.book} "
-            f"format={self.book.split('.')[-1]} order=random plies=16 "
+            f"format={self.book.split('.')[-1]} order=random "
             f"-games {self.games} "
             "-pgnout tuner/games.pgn"
         )
