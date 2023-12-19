@@ -49,7 +49,7 @@
 		},
 		"RFP_MaxDepth": {
 			"value": 2,
-			"min_value": 2,
+			"min_value": 1,
 			"max_value": 12,
 			"step": 1
 		},
