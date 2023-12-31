@@ -4,5 +4,6 @@
     "games": 8,
     "tc": 8,
     "hash": 256,
-    "threads": 8
+    "threads": 8,
+    "save_rate": 10
 }
